@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.curriculo {
+  width: 100%;
+  max-width: 60rem;
+  height: 180px;
+  padding: 30px 0;
+  display: flex;
+  margin: auto;
+  background-image: url(banner.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.bg-black {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 0.8183648459383753) 25%,
+    rgba(255, 255, 255, 0.05085784313725494) 100%
+  );
+}
+
+.curriculo-header {
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  z-index: 1;
+}
+
+.curriculo-header .img img {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  border-radius: 50%;
+}
+
+.curriculo-header .text {
+  margin-left: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.curriculo-header .text h2 {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.curriculo-header .text p {
+  font-size: 20px;
+  font-weight: 300;
+}
+/* curriculo-info */
+.curriculo-info {
+  width: 100%;
+  max-width: 60rem;
+  margin: auto;
+  display: flex;
+}
+.curriculo-info .block-info {
+  width: 100%;
+  max-width: 60%;
+  padding: 3rem 2rem;
+}
+.block-info .text {
+  margin-bottom: 40px;
+}
+
+.block-info .title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  position: relative;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+.title::before {
+  content: ' ';
+  width: 40px;
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  bottom: -15px;
+}
+.block-info p {
+  font-size: 14px;
+}
+.curriculo-info .block-info:first-child {
+  width: 100%;
+  max-width: 40%;
+  background-color: #e2e2e2;
+}
+
+.text.contato li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.text.contato li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+}
+.text.contato li i {
+  font-size: 21px;
+  margin-right: 10px;
+  color: #444;
+}
+.text.formacao p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+}
+.text.formacao small {
+  color: #818181;
+}
+.text.formacao span {
+font-weight: bold;
+}
+.text.formacao .info {
+  margin-bottom: 20px;
+}
+.text.complementares li {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.text .info li span {
+  font-weight: 700;
+}
+.text.objetivo li {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.text.objetivo li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+}
+.text.tecnologia li p {
+  color: #444;
+}
+.text.tecnologia li {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.text.tecnologia .info li {
+  font-size: 14px;
+  margin-left: 0px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+.icones {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 300px;
+  
+}
+.icones .info-icones {
+  flex-direction: column;
+  width: 25%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.icones .info-icones h2{
+  font-size: 18px;
+  text-align: center;
+}
+.icones .info-icones i {
+  font-size: 50px;
+  text-align: center;
+}
+
+i.fab.fa-html5 {
+  color: hsla(11,100%,62.2%,1);
+}
+i.fab.fa-css3-alt {
+  color: #007eff;
+}
+
+
